@@ -1,0 +1,31 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@tonconnect/ui": "^2.0.9",
+    "@vee-validate/zod": "^4.13.2",
+    "@vercel/analytics": "^1.3.1",
+    "maska": "^3.0.0",
+    "nuxt": "^3.13.0",
+    "ton-ui-vue": "^0.1.5",
+    "vee-validate": "^4.13.2",
+    "vue": "latest",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@nuxt/icon": "latest",
+    "@nuxt/image": "latest",
+    "@nuxtjs/tailwindcss": "latest",
+    "@pinia-plugin-persistedstate/nuxt": "latest",
+    "@pinia/nuxt": "latest",
+    "@vueuse/nuxt": "latest"
+  }
+}
