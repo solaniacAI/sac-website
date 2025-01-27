@@ -105,7 +105,7 @@ const { value, errorMessage: errors } = useField("email");
 const onSubmit = handleSubmit((values) => {
   isLoading.value = true;
   useFetch("/waitlist/join", {
-    baseURL: "https://listra.xyz/api/v1",
+    baseURL: "https://solaniac.xyz/api/v1",
     body: values,
     method: "post",
   })

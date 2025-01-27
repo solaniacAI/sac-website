@@ -9,7 +9,7 @@ useHead({
     {
       name: "description",
       content:
-        "With Listra and Ton, your playtime turns into real rewards. Dive into games, trade, and earn, Every move counts .",
+        "Chat with Solaniac - Ready to Take Your Crypto Insights to the Next Level?",
     },
   ],
 });
@@ -47,7 +47,7 @@ nuxtApp.hook("page:finish", () => {
     --text-head: #262626;
     --text-sub: #666666;
     --text-item: #333333;
-    --background: #ffffff;
+    --background: #121212;
     --border-color: #e6e9ee;
     --footer-bg: #191919;
     --footer-text: #b3b3b3;
